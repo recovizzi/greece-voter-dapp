@@ -68,3 +68,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Installation et configuration
+
+## Créer l'application (si ce n'est pas déjà fait)
+```bash
+npx create-react-app greece-voter-dapp
+cd greece-voter-dapp
+```
+
+## Installer les dépendances pour la validation et les formulaires
+```bash
+npm install zod react-hook-form
+```
+
+## Installer et configurer Tailwind CSS
+```bash
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
+Ensuite, configurez le fichier `tailwind.config.js` selon vos besoins et ajoutez les directives Tailwind dans votre fichier CSS principal (ex: `src/index.css`).
