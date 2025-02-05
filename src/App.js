@@ -1,13 +1,22 @@
-import './App.css';
+import logo from './logo.svg';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100">
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold text-center text-gray-800">
-          Greece Voter DApp
-        </h1>
-      </div>
+    <div className="text-center">
+      <header className="bg-[#282c34] min-h-screen flex flex-col items-center justify-center text-white">
+        <img src={logo} className="h-[40vmin] pointer-events-none" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="text-[#61dafb]"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
